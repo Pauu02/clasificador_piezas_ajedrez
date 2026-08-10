@@ -63,14 +63,12 @@ Versión final basada en **ResNet50 preentrenada**, realizando *fine-tuning* de 
 También se incorporaron:
 
 * Data augmentation
-* `WeightedRandomSampler` para el desbalance de clases
+* `WeightedRandomSampler` para compensar el desbalance entre clases
 * Label smoothing
 * Dropout
 * AdamW
 * Cosine Annealing
 * Early stopping
-
-Durante el desarrollo se probaron también técnicas como MixUp y TTA, pero finalmente no se incluyeron en la versión final.
 
 **Accuracy: 94,66 %**
 
